@@ -115,9 +115,11 @@ nav {
 .efektywne {
     height: 600px;
     background-color: #2F303A;
-    background-image: url(/images/background), linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-image: linear-gradient(
+                    rgba(47, 48, 58, 0.4), 
+                    rgba(47, 48, 58, 0.4)),
+                    url(images/background.jpg);
+    background-position: center;
     background-size: cover;
 }
 
