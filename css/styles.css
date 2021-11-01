@@ -345,6 +345,8 @@ nav {
 .lista-klientów {
     list-style: none;
     margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
 }
