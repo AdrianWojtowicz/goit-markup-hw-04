@@ -367,6 +367,11 @@ nav {
 
 .klient1:hover, .klient2:hover, .klient3:hover, .klient4:hover, .klient5:hover, .klient6:hover {
     border-color: #2196F3;
+    cursor: pointer;
+}
+
+.klient1:hover > .icon-klient1, .klient2:hover > .icon-klient2 {
+    fill: #2196F3;
 }
 
 .footer {
