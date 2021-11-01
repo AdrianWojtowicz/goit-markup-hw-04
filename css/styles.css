@@ -315,16 +315,7 @@ nav {
     cursor: pointer;
 }
 
-.social-icon-background:hover > .instagram {
-    fill: #fff;
-}
-.social-icon-background:hover > .twitter {
-    fill: #fff;
-}
-.social-icon-background:hover > .facebook {
-    fill: #fff;
-}
-.social-icon-background:hover > .linkedin {
+.social-icon-background:hover > .instagram, .social-icon-background:hover > .twitter, .social-icon-background:hover > .facebook, .social-icon-background:hover > .linkedin {
     fill: #fff;
 }
 
@@ -370,7 +361,7 @@ nav {
     cursor: pointer;
 }
 
-.klient1:hover > .icon-klient1, .klient2:hover > .icon-klient2 {
+.klient1:hover > .icon-klient1, .klient2:hover > .icon-klient2, .klient3:hover > .icon-klient3, .klient4:hover > .icon-klient4, .klient5:hover > .icon-klient5, .klient6:hover > .icon-klient6 {
     fill: #2196F3;
 }
 
