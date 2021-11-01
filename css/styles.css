@@ -96,9 +96,7 @@ nav {
     cursor: pointer;
 }
 
-.email-menu {
-    width: 161px;
-    margin-left: 345px;
+.email-menu, .tel-menu {
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -107,24 +105,17 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
-.icon-mail {
-    fill: currentColor;
+.email-menu {
+    width: 161px;
+    margin-left: 345px;
 }
 
 .tel-menu {
     width: 130px;
     margin-left: 30px;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-.icon-smartphone {
+.icon-mail, .icon-smartphone {
     fill: currentColor;
 }
 
@@ -173,12 +164,12 @@ nav {
 }
 
 .atuty {
-    height: 195px;
+    height: 345px;
     padding-top: 94px;
 }
-.atuty2 {
+.atuty-box {
     width: 1170px;
-    height: 101px;
+    height: 251px;
 }
 
 .tabela-atuty {
@@ -187,6 +178,16 @@ nav {
     margin: 0px;
     display: flex;
     justify-content: space-between;
+}
+
+.atuty1, .atuty2, .atuty3, .atuty4 {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .t1, .t2, .t3, .t4 {
@@ -200,9 +201,12 @@ nav {
     text-transform: uppercase;
     color: #212121;
     margin:0px;
+    margin-top: 30px;
 }
 
 .t1-tresc, .t2-tresc, .t3-tresc, .t4-tresc {
+    width: 270px;
+    height: 75px;
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 14px;
@@ -226,9 +230,10 @@ nav {
     align-content: space-between;
 }
 
-.zajecia-naglowek {
+.zajecia-naglowek, .nasz-zespół, .nasi-klienci  {
     font-weight: bold;
     font-size: 36px;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
     margin: 0px;
@@ -239,22 +244,13 @@ nav {
 }
 
 .zespol {
-    height: 648px;
+    height: 708px;
     background: #F5F4FA;
 }
 .zespol2 {
     padding-top: 94px;
     padding-bottom: 94px;
     justify-content: center;
-}
-
-.nasz-zespół {
-    font-weight: bold;
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin: 0px;
 }
 
 .tabela-zespol {
@@ -273,6 +269,8 @@ nav {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 428px;
 }
 
 .zespol-1-imie, .zespol-2-imie, .zespol-3-imie, .zespol-4-imie {
@@ -292,6 +290,81 @@ nav {
     color: #757575;
     margin: 0px;
     margin-top: 10px;
+}
+
+.social {
+    width: 206px;
+    height: 44px;
+    margin: 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon-background {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-background:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.social-icon-background:hover > .instagram {
+    fill: #fff;
+}
+.social-icon-background:hover > .twitter {
+    fill: #fff;
+}
+.social-icon-background:hover > .facebook {
+    fill: #fff;
+}
+.social-icon-background:hover > .linkedin {
+    fill: #fff;
+}
+
+.instagram, .twitter, .facebook, .linkedin {
+    fill: #afb1b8;
+}
+
+.klienci {
+    height: 372px;
+    padding: 94px;
+}
+
+.klienci2 {
+    width: 1170px;
+    height: 184px;
+}
+
+.lista-klientów {
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.klient1, .klient2, .klient3, .klient4, .klient5, .klient6 {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-klient1, .icon-klient2, .icon-klient3, .icon-klient4, .icon-klient5, .icon-klient6 {
+    fill: #afb1b8;
+}
+
+.klient1:hover, .klient2:hover, .klient3:hover, .klient4:hover, .klient5:hover, .klient6:hover {
+    border-color: #2196F3;
 }
 
 .footer {
