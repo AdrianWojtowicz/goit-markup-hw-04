@@ -301,7 +301,7 @@ nav {
     justify-content: space-between;
 }
 
-.social-icon-background {
+.social-icon-background, .social-icon-background-footer {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -376,6 +376,7 @@ nav {
     padding-left: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
 
 .logo-footer {
@@ -412,6 +413,38 @@ nav {
 
 .mail-footer, .tel-footer {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.social-footer {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.social-footer-icons {
+    width: 206px;
+    height: 44px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon-background-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-background-footer:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.instagram-footer, .twitter-footer, .facebook-footer, .linkedin-footer {
+    fill: #fff;
 }
 
 .portfolio-strona {
